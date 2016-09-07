@@ -51,3 +51,11 @@ Specify what it takes to deploy your app.
   * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
+
+## Steps
+
+* `npm uninstall -g ember-cli`
+* `npm cache clean`
+* `npm install -g ember-cli`
+Go to directory
+* `ember install ember-cli-mirage`
