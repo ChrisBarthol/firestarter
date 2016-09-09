@@ -59,3 +59,4 @@ Specify what it takes to deploy your app.
 * `npm install -g ember-cli`
 Go to directory
 * `ember install ember-cli-mirage`
+* `ember install ember-cli-page-object`
