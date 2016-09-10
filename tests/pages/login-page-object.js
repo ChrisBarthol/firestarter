@@ -4,5 +4,5 @@ import {
 } from 'ember-cli-page-object';
 
 export default create({
-  visit: visitable('/page-object')
+  visit: visitable('/login-page-object')
 });
