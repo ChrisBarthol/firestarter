@@ -9,5 +9,6 @@ test('visiting the ember starter page', function(assert) {
   andThen(function() {
     assert.equal(currentURL(), '/hello-world');
     assert.equal(find('#title').text(), 'Hello World!', 'Project has correct starting title');
+    // assert.equal(x, y, 'Add some text to the page and find it.')
   });
 });
