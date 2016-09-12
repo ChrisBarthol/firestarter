@@ -1,21 +1,21 @@
 <div class="container text-center">
   {{#if showErrors}}
-    <div class="alert alert-danger" role="alert">{{myErrors}}</div>
+    <div id='errors' class="alert alert-danger" role="alert">{{myErrors}}</div>
   {{/if}}
   {{#if showSuccess}}
-    <div class="alert alert-success" role="alert">{{success}}</div>
+    <div id='success' class="alert alert-success" role="alert">{{success}}</div>
   {{/if}}
   <form>
     <row class="col-md-12">
       <label>Username</Label>
-      {{input value=userName placeholder="Username"}}
+      {{input id='username' value=userName placeholder="Username"}}
     </row>
     <br>
     <row class="col-md-12">
       <label>Password</Label>
-        {{input value=password placeholder="Password"}}
+      {{input id='password' value=password placeholder="Password"}}
     </row>
     <br>
-    <button {{action "submit"}} class="btn btn-large btn-primary">Submit!</button>
+    <button {{action "submit"}} id='submit' class="btn btn-large btn-primary">Submit!</button>
   </form>
 </div>

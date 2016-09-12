@@ -1,6 +1,6 @@
 import { moduleFor, test } from 'ember-qunit';
 
-moduleFor('controller:page-object-login', 'Unit | Controller | page object login', {
+moduleFor('controller:login-page-object', 'Unit | Controller | login page object', {
   // Specify the other units that are required for this test.
   // needs: ['controller:foo']
 });
