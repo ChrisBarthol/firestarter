@@ -10,5 +10,3 @@ test('visiting /page-object', function(assert) {
     assert.equal(currentURL(), '/login-page-object');
   });
 });
-
-te
