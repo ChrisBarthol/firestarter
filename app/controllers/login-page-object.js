@@ -3,13 +3,11 @@ import Ember from 'ember';
 export default Ember.Controller.extend({
   actions: {
     submit() {
-      this.setProperties({ showSuccess: false, showErrors: false});
+      this.setProperties({ success: false, errors: false});
       if (this.userName === 'Bob') {
-        this.set('showSuccess', true);
         this.set('success', "Hello Bob!");
       } else {
-        this.set('showErrors', true);
-        this.set('myErrors',"Invalid credentials");
+        this.set('errors',"Invalid credentials");
       }
     }
   }

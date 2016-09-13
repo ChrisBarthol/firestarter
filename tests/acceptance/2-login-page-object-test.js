@@ -4,7 +4,7 @@ import page from '../pages/login-page-object';
 
 moduleForAcceptance('Acceptance | page object');
 
-test('visiting /page-object', function(assert) {
+test('visiting /login-page-object', function(assert) {
   visit('/login-page-object');
 
   andThen(function() {
@@ -33,3 +33,5 @@ test('failed login with page object', function(assert) {
     assert.equal(page.error, 'Invalid credentials', "Can not log in unless you are Bob");
   });
 });
+
+//write a test for a sucessful login
