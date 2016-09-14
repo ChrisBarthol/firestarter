@@ -60,3 +60,13 @@ Specify what it takes to deploy your app.
 Go to directory
 * `ember install ember-cli-mirage`
 * `ember install ember-cli-page-object`
+
+
+
+Basic Workflow
+
+1. Go to hello-world, run tests, add text to page and add another test to assert that the text exists
+2. Go to login-page-object, check out controllers and actions, run tests, see use of page-object, write test for successful login
+3. error-message component, integration tests with components, update compoent to make test past.
+4. users index, nested routing, template interation, defining a user model, adding mirage, adding a mirage factory, adding a mirage scenario to load test data
+defining a routes model.

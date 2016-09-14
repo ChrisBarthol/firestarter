@@ -10,7 +10,13 @@ Router.map(function() {
   this.route('home', {path: '/'});
   this.route('hello-world');
   this.route('login-page-object');
-  this.route('mirage-create-users');
+  this.route('create-mirage-users');
+  this.route('users', function() {
+    this.route('index', {path: '/'});
+    this.route('show');
+    this.route('new');
+  })
+  this.route('user');
 });
 
 export default Router;
