@@ -15,7 +15,7 @@ Router.map(function() {
     this.route('index', {path: '/'});
     this.route('show');
     this.route('new');
-  })
+  });
   this.route('user');
 });
 

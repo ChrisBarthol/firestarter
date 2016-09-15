@@ -63,7 +63,7 @@ Go to directory
 
 
 
-Basic Workflow
+## Basic Workflow
 
 1. Go to hello-world, run tests, add text to page and add another test to assert that the text exists
 2. Go to login-page-object, check out controllers and actions, run tests, see use of page-object, write test for successful login
