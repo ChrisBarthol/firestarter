@@ -1,0 +1,28 @@
+#main-splash {
+  position: relative;
+  height: 800px;
+  background: rgb(245,246,258) url('/assets/images/sweden-123784_1920.jpg') fixed top center;
+  -webkit-background-size: color;
+  background-size: 100% 100%;
+}
+
+body, body div, html, #main-splash{
+  height: 100%;
+}
+
+#main-text {
+  font-family: 'Crete Round', serif;
+  position: absolute;
+  top: 20%;
+  left: 0%;
+  margin-left: 5px;
+  margin-right: 5px;
+  width:50%;
+  color: white;
+  font-size: 40px;
+}
+
+#main-text h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 100px;
+}
