@@ -24,3 +24,8 @@
   font-family: 'Kaushan Script', cursive;
   font-size: 100px;
 }
+
+code {
+  display: inline-block;
+  text-align: left;
+}
