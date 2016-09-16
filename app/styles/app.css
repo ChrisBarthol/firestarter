@@ -4,11 +4,9 @@
   background: rgb(245,246,258) url('/assets/images/sweden-123784_1920.jpg') fixed top center;
   -webkit-background-size: color;
   background-size: 100% 100%;
+  margin-top: -20px;
 }
 
-body, body div, html, #main-splash{
-  height: 100%;
-}
 
 #main-text {
   font-family: 'Crete Round', serif;
